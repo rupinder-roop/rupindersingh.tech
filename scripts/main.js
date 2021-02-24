@@ -1,6 +1,9 @@
 // Add your javascript here
 // Don't forget to add it into respective layouts where this js file is needed
-
+var preloader = document.getElementById("loading");
+function loading(){
+  preloader.style.display = 'none';
+};
 $(document).ready(function() {
   AOS.init( {
     // uncomment below for on-scroll animations to played only once
